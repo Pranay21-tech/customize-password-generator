@@ -1,0 +1,62 @@
+🪟 How to Run on Windows
+✅ 1. Make sure Python is installed
+Open Command Prompt and check:
+
+bash
+python --version
+If not installed, download and install Python from https://www.python.org/downloads/. Make sure to check the box “Add Python to PATH” during installation.
+
+✅ 2. Save the script
+Open Notepad or any text editor.
+
+Paste your Python code.
+
+Save the file as password_generator.py (make sure the extension is .py, not .txt).
+
+✅ 3. Run the script
+Open Command Prompt, navigate to the folder where the script is saved using cd:
+
+bash
+cd path\to\your\folder
+Run the script:
+bash
+python password_generator.py
+The program will run in the terminal and prompt you for inputs.
+
+🐧 How to Run on Linux
+✅ 1. Check if Python is installed
+Open a terminal and type:
+bash
+python3 --version
+If not installed:
+bash
+sudo apt update
+sudo apt install python3
+✅ 2. Save the script
+Open any text editor (e.g., gedit, nano, or VS Code).
+
+Paste your Python code.
+
+Save it as password_generator.py.
+
+Example with nano:
+bash
+nano password_generator.py
+Paste the code, press Ctrl+O to save, then Ctrl+X to exit.
+
+✅ 3. Run the script
+In the terminal:
+bash
+python3 password_generator.py
+📁 Output Location
+The generated passwords are saved in a file named:
+generated_passwords.txt
+This file will be located in the same folder where the Python script is run.
+
+✅ Example Result
+If you generate 3 passwords with base name "OpenAI", total length 14, and mixed characters, the terminal might show:
+Generated Passwords:
+1: OpenAI3#dKe8p@
+2: zY@8OpenAIv93q
+3: 6!XOpenAI7&2sd
+And these same lines will be written to generated_passwords.txt.
