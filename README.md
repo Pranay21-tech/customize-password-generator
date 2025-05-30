@@ -46,20 +46,30 @@ Set password length (minimum 6 characters)
 Generate multiple passwords at once
 
 Save all generated passwords to a file: generated_passwords.txt
+🪟 How to Run on Windows
+✅ 1. Make sure Python is installed
+Open Command Prompt and check:
+bash
+python --version
+If not installed, download and install Python from https://www.python.org/downloads/. Make sure to check the box “Add Python to PATH” during installation.
 
-🚀 How to Run
-Make sure you have Python installed (Python 3.x recommended).
+✅ 2. Save the script
+Open Notepad or any text editor.
 
-Save the script as password_generator.py.
+Paste your Python code.
 
-Open your terminal or command prompt.
+Save the file as password_generator.py (make sure the extension is .py, not .txt).
 
+✅ 3. Run the script
+Open Command Prompt, navigate to the folder where the script is saved using cd:
+
+bash
+cd path\to\your\folder
 Run the script:
 
 bash
 python password_generator.py
-📥 Sample Input Flow
-Generate your customize Passaword>>>
+The program will run in the terminal and prompt you for inputs.
 
 Enter a Name or Word that you want to include in Password: John
 where do you want your name/word in the password? (start/middle/end): middle
@@ -82,3 +92,33 @@ Generated Passwords:
 2: M@Jo2hn7$c!
 3: QwJo#hn9@Lp
 ...
+
+
+🐧 How to Run on Linux
+✅ 1. Check if Python is installed
+Open a terminal and type:
+bash
+python3 --version
+If not installed:
+
+bash
+sudo apt update
+sudo apt install python3
+✅ 2. Save the script
+Open any text editor (e.g., gedit, nano, or VS Code).
+
+Paste your Python code.
+
+Save it as password_generator.py.
+Example with nano:
+bash
+nano password_generator.py
+Paste the code, press Ctrl+O to save, then Ctrl+X to exit.
+✅ 3. Run the script
+In the terminal:
+bash
+python3 password_generator.py
+📁 Output Location
+The generated passwords are saved in a file named:
+generated_passwords.txt
+This file will be located in the same folder where the Python script is run.
